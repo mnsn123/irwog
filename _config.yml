@@ -1,0 +1,39 @@
+title: "IRWOG"
+url: "https://monsoonmalabar.com/irwog"
+email: "irwogmerch@gmail.com"
+markdown: kramdown
+mobile: "6383379429"
+country: "India"
+currency_code: "INR"
+paypal_email: ""
+razorpay_key: ""
+location: "11.9385635,79.8129104"
+category: "Kirana Store, FMCG & Grocery"
+sass:
+  sass_dir: _sass
+  style: compressed
+collections:
+  products:
+    output: true
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: product
+  - scope:
+      type: products
+    values:
+      layout: post
+plugins_dir:
+  - jekyll-sitemap
+  - jekyll-paginate
+encoding: UTF-8
+permalink: /products/:title/
+paginate: 10
+permalink: /:categories/:title/
+paginate_path: 'page/:num/'
+favicon: "https://monsoonmalabar.com/irwog/logo.png"
+paypal: 
+fb_appid: ""
+analytics: 
+adsense: 
